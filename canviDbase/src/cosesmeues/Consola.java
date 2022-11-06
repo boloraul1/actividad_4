@@ -4,10 +4,21 @@
  */
 package cosesmeues;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**
  *
  * @author bolor
  */
 public class Consola {
-    
+
+    public static String lligText() throws IOException {
+        BufferedReader lector = new BufferedReader(new InputStreamReader(System.in));
+        return lector.readLine();
+    }
+
+ 	// es repeteix mentre la transformació falla 
+
 }
